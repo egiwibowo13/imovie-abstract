@@ -6,21 +6,12 @@
 //
 
 import Foundation
-import CommonCrypto
 
-extension String {
-  public func sha512() -> Data? {
-    let stringData = data(using: String.Encoding.utf8)!
-    var result = Data(count: Int(CC_SHA512_DIGEST_LENGTH))
-    _ = result.withUnsafeMutableBytes { rawMutableBufferPointer in
-      stringData.withUnsafeBytes { stringBytes in
-        CC_SHA512(
-          stringBytes.baseAddress,
-          CC_LONG(stringData.count),
-          rawMutableBufferPointer.bindMemory(to: UInt8.self).baseAddress)
-      }
-    }
+public extension String {
 
-    return result
+  func localized(identifier: String) -> String {
+      let bundle = Bundle(identifier: identifier) ?? .main
+      return bundle.localizedString(forKey: self, value: nil, table: nil)
   }
+
 }

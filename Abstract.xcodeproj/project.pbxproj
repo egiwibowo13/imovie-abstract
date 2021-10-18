@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		50E0C8C9271D039A005B114A /* Abstract.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E0C8BB271D039A005B114A /* Abstract.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E0C8DA271D04BC005B114A /* CodableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8D9271D04BC005B114A /* CodableExt.swift */; };
 		50E0C8DE271D04DF005B114A /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8DD271D04DF005B114A /* StringExt.swift */; };
-		50E0C8E2271D0505005B114A /* ResultExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8E1271D0505005B114A /* ResultExt.swift */; };
 		50E0C8E6271D052E005B114A /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8E5271D052E005B114A /* DateExt.swift */; };
 		50E0C8EB271D0570005B114A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8EA271D0570005B114A /* APIError.swift */; };
 		50E0C8EF271D058A005B114A /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0C8EE271D058A005B114A /* BaseResult.swift */; };
@@ -45,7 +44,6 @@
 		50E0C8C8271D039A005B114A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E0C8D9271D04BC005B114A /* CodableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExt.swift; sourceTree = "<group>"; };
 		50E0C8DD271D04DF005B114A /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
-		50E0C8E1271D0505005B114A /* ResultExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExt.swift; sourceTree = "<group>"; };
 		50E0C8E5271D052E005B114A /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		50E0C8EA271D0570005B114A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		50E0C8EE271D058A005B114A /* BaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResult.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 			children = (
 				50E0C8D9271D04BC005B114A /* CodableExt.swift */,
 				50E0C8DD271D04DF005B114A /* StringExt.swift */,
-				50E0C8E1271D0505005B114A /* ResultExt.swift */,
 				50E0C8E5271D052E005B114A /* DateExt.swift */,
 			);
 			path = Extension;
@@ -346,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E0C8F4271D05C4005B114A /* Endpoint.swift in Sources */,
-				50E0C8E2271D0505005B114A /* ResultExt.swift in Sources */,
 				50E0C8FE271D0601005B114A /* ApiClient.swift in Sources */,
 				50E0C8DE271D04DF005B114A /* StringExt.swift in Sources */,
 				50E0C8DA271D04BC005B114A /* CodableExt.swift in Sources */,
