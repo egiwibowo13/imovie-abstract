@@ -7,7 +7,6 @@ target 'Abstract' do
 
   # Pods for Abstract
   pod 'Alamofire'
-  pod 'RealmSwift', '~>10'
 
   target 'AbstractTests' do
     # Pods for testing

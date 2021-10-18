@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Abstract"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This module for implement modularization base on framework at apps imovie"
 
   # This description is used to generate tags and improve search results.
@@ -24,9 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-  This module for implement modularization base on framework at apps imovie
-                   DESC
+  # spec.description  = <<-DESC
+  # This module for implement modularization base on framework at apps imovie
+  #                  DESC
 
   spec.homepage     = "https://github.com/egiwibowo13/imovie-abstract"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -72,6 +72,8 @@ Pod::Spec.new do |spec|
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
+
+  spec.swift_version = '4.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,7 +136,5 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Alamofire"
-  spec.dependency "RealmSwift"
-  spec.dependency "CryptoSwift"
 
 end
